@@ -1,7 +1,15 @@
-* {
+main {
   font-family: 'Delius Unicase', cursive;
-}
-
-a {
-  color: #00B7FF;
+  width: 100vw;
+  height: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: red;
+  background: url("http://media4.giphy.com/media/26BRPswXSbrb88YsE/giphy.gif");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  text-align: center;
+  background-color: black;
 }

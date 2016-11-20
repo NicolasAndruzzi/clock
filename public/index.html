@@ -3,21 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Clock  || A Clockwork Orange</title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS Normalizer -->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" media="screen" title="no title">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/stylesheets/style.css" media="screen" title="no title">
-    <!-- Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <h1>2:34</h1>
+    <main ng-cloak>
+      <div ng-view></div>
+    </main>
     <!-- AngularJS (CDN) -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
     <!-- Custom JS -->
     <script type="text/javascript" src="/javascripts/app.js"></script>
+    <script type="text/javascript" src="/javascripts/controllers/main.js"></script>
   </body>
 </html>
